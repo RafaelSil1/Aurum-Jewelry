@@ -110,6 +110,7 @@ a {
 }
 
 .btn-cards {
+    margin-left: 25px;
     background-color: #BF7B3F;
     color: white;
     cursor: pointer;
@@ -157,4 +158,55 @@ a {
 .text-p span {
     font-size: 20px;
     color: #BF7B3F;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    border-top: solid 1px white;
+}
+
+.lgo-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.lgo-title i {
+    font-size: 30px;
+}
+
+.lgo-title h2 {
+    color: #D7D7D9;
+}
+
+.list ul, li, a{
+    color: white;
+    width: 150px;
+    font-size: 19px;
+    margin-bottom: 3px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.list a:hover {
+    color: #BF7B3F;
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    gap: 15px;
+}
+
+.web a {
+    width: 35px;
+}
+
+.web img{
+    width: 100%;
 }
