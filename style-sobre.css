@@ -1,0 +1,94 @@
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0 20px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ ul li a:hover {
+    color: #BF7B3F;
+}
+
+.about {
+    background: #fff;
+    padding: 60px 30px;
+    text-align: center;
+    color: #333;
+}
+
+.about h1 {
+    font-size: 36px;
+    font-family: 'Times New Roman', serif;
+    color: #333;
+}
+
+.history, .mission-vision {
+    padding: 60px 30px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.history h2, .mission h2, .vision h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.history p, .mission p, .vision p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mission, .vision {
+    width: 45%;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 14px;
+}
