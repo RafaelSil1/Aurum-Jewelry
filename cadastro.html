@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f35b5640ea.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="Imagens/05e9f425-a2d4-41db-82b6-f30eb36dc153.png" type="image/x-icon">
-    <link rel="stylesheet" href="stylepg2.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastre-se</title>
 </head>
-
 <body>
 
-    <form action="">
+     <form action="">
 
         <div class="arrow">
             <a href="index.html">
-            <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-house"></i>
             </a>
-            
-            <a href="cadastro.html">Cadastre-se</a>
-        </div>
 
-       
+               <a href="indexpg2.html">Já tenho uma conta</a>
+
+        </div>
 
         <div class="logo">
             <img src="Imagens/05e9f425-a2d4-41db-82b6-f30eb36dc153.png" alt="">
@@ -31,21 +28,35 @@
         <div class="inputs">
 
             <label for="">
+                <input type="text" placeholder="Nome" required class="inp">
+            </label>
+
+              <label for="">
+                <input type="text" placeholder="Sobrenome" required class="inp">
+            </label>
+
+              <label for="">
+                <input type="number" placeholder="Idade" required class="inp">
+            </label>
+
+              <label for="">
                 <input type="email" placeholder="Email" required class="inp">
             </label>
+
 
             <label for="">
                 <input type="password" placeholder="Senha" required class="inp">
             </label>
 
-            <input type="submit" value="Entrar" class="ent">
+            
+            <label for="">
+                <input type="password" placeholder="Confirma a Senha" required class="inp">
+            </label>
+            <input type="submit" value="Cadastra" class="ent">
 
-            <a href="#">Esqueceu a senha ?</a>
 
         </div>
 
     </form>
-
 </body>
-
 </html>
