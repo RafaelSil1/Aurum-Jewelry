@@ -1,2 +1,2 @@
 # Atividade-Pratica-01
-Atividade de crição de site 
+https://rafaelsil1.github.io/Aurum-Jewelry/
