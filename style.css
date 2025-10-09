@@ -7,21 +7,22 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 150px;
+    width: 100%;
+    height: 20vh;
     background-color: #262626;
 }
 
 header i {
-    font-size: 50px;
+    font-size: 4rem;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 3rem;
     color: #D7D7D9;
 }
 
-.logo img {
-    width: 10%;
+.nav {
+    width: 30%;
 }
 
 .nav ul {
@@ -45,14 +46,14 @@ a {
     background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
-    padding: 250px;
+    padding: 15%;
 }
 
 .card {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 50px;
+    padding: 2%;
 }
 
 .cards {
@@ -61,8 +62,8 @@ a {
     align-items: center;
     border-radius: 20px;
     padding: 20px;
-    width: 230px;
-    height: 370px;
+    width: 14%;
+    height: 41vh;
     background-color: #9A98A6;
     transition: 1.1s;
 }
@@ -71,51 +72,17 @@ a {
     transform: scale(1.1);
 }
 
-
 .cards img {
     width: 100%;
 }
 
-
-.icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    padding: 20px;
-    width: 230px;
-    height: 370px;
-    background-color: #9A98A6;
-    transition: 1.1s;
-}
-
-.icon:hover {
-    transform: scale(1.1);
-}
-
-.icons i {
-    color: #BF7B3F;
-}
-
-.card-background {
-    background-image: url(Imagens/brinco.jpg);
-    background-size: cover;
-    border-radius: 20px;
-    padding: 145px;
-    transition: 1.1s;
-}
-
-.card-background:hover {
-    transform: scale(1.1);
-}
-
 .btn-cards {
-    margin-left: 25px;
+    margin-left: 25%;
     background-color: #BF7B3F;
     color: white;
     cursor: pointer;
     border-radius: 10px;
-    width: 100px;
+    width: 50%;
     padding: 5px;
 }
 
@@ -128,9 +95,9 @@ a {
 }
 
 .text-p {
-    font-size: 19px;
+    font-size: 1.2rem;
     text-align: center;
-    width: 500px;
+    width: 60%;
 }
 
 .text-p h2 {
@@ -143,7 +110,7 @@ a {
 
 .img img {
     border-radius: 30px;
-    width: 500px;
+    width: 50vh;
 }
 
 .card-text1 {
@@ -151,12 +118,12 @@ a {
     justify-content: space-evenly;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 50px;
+    padding: 3%;
     gap: 20px;
 }
 
 .text-p span {
-    font-size: 20px;
+    font-size: 2rem;
     color: #BF7B3F;
 }
 
@@ -164,7 +131,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 3%;
     border-top: solid 1px white;
 }
 
@@ -176,18 +143,20 @@ footer {
 }
 
 .lgo-title i {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .lgo-title h2 {
     color: #D7D7D9;
 }
 
-.list ul, li, a{
+.list ul,
+li,
+a {
     color: white;
-    width: 150px;
-    font-size: 19px;
-    margin-bottom: 3px;
+    width: 90%;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
     text-decoration: none;
     list-style: none;
 }
@@ -199,14 +168,200 @@ footer {
 .web {
     display: flex;
     justify-content: center;
-    margin-right: 100px;
+    margin-right: 2%;
     gap: 15px;
 }
 
 .web a {
-    width: 35px;
+    width: 8%;
 }
 
-.web img{
-    width: 100%;
+.web img {
+    width: 90%;
+}
+
+
+/* Media Query para telas pequenas (celulares) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    header i {
+        font-size: 2.5rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .nav {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+     .nav a {
+        font-size: 1.2rem;
+     }
+
+    .nav ul {
+        flex-direction: row;
+        align-items: center;
+        padding-left: 15px;
+        gap: 5px;
+    }
+
+    .img-banner {
+        padding: 25%;
+        background-size: cover;
+    }
+    
+    .img img {
+        width: 100%;
+    }
+
+    .text-p {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+     .text-p span {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cards {
+        width: 60%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: 52px;
+    }
+
+    .btn-cards {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card-text {
+        flex-direction: column;
+        padding: 20px;
+        gap: 10px;
+    }
+
+
+    .card-text1 {
+        flex-direction: column;
+        padding: 10%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list {
+        width: 50%;
+        margin-left: 35px;
+        margin-bottom: 30px;
+    }
+
+    .lgo-title {
+        padding-bottom: 0;
+    }
+    
+
+    .web {
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
+        margin-left: 50px;
+        gap: 2px;
+    }
+
+    .web img {
+        width: 50%;
+    }
+
+    .web a {
+        width: 20%;
+    }
+}
+
+/* Media Query para telas muito pequenas (celulares menores) */
+@media (max-width: 320px) {
+    header i {
+        font-size: 2rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .nav ul {
+        margin-left: 80px;
+        gap: 5px;
+    }
+
+    .img-banner {
+        padding: 25%;
+    }
+
+    .cards {
+        margin-left: 40px;
+        width: 60%;
+        height: auto;
+    }
+
+    .btn-cards {
+        width: 100%;
+    }
+
+    .text-p {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .text-p span {
+        font-size: 1rem;
+    }
+
+    .lgo-title {
+        padding-bottom: 0;
+    }
+
+    .list {
+        width: 50%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .list ul, li, a {
+        padding: 0;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    .web {
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
+        margin-left: 40px;
+        gap: 2px;
+    }
+
+    .web img {
+        width: 50%;
+    }
+
+    .web a {
+        width: 20%;
+    }
 }
