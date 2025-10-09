@@ -216,8 +216,8 @@ a {
     }
 
     .img-banner {
-        padding: 25%;
-        background-size: cover;
+        width: 100%;
+        padding: 110px 0px;
     }
 
     .img img {
@@ -235,6 +235,7 @@ a {
 
     .card {
         flex-direction: column;
+        margin-left: 50px;
         width: 100%;
     }
 
@@ -242,7 +243,6 @@ a {
         width: 60%;
         height: auto;
         margin-bottom: 20px;
-        margin-left: 52px;
     }
 
     .btn-cards {
@@ -305,16 +305,20 @@ a {
     }
 
     .nav ul {
-        margin-left: 80px;
+        margin-left: 5px;
         gap: 5px;
     }
 
-    .img-banner {
-        padding: 25%;
+    .nav a {
+        font-size: 1.1rem;
+    }
+
+     .img-banner {
+        width: 100%;
+        padding: 110px 0px;
     }
 
     .cards {
-        margin-left: 40px;
         width: 60%;
         height: auto;
     }
@@ -338,7 +342,7 @@ a {
 
     .list {
         width: 50%;
-        margin-left: 20px;
+        margin-left: 100px;
         margin-bottom: 20px;
     }
 
@@ -368,8 +372,5 @@ a {
         width: 20%;
     }
 
-    .web img {
-        width: 100%;
-    }
 
 }
