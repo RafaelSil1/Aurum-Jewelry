@@ -204,9 +204,9 @@ a {
         margin-top: 10px;
     }
 
-     .nav a {
+    .nav a {
         font-size: 1.2rem;
-     }
+    }
 
     .nav ul {
         flex-direction: row;
@@ -219,7 +219,7 @@ a {
         padding: 25%;
         background-size: cover;
     }
-    
+
     .img img {
         width: 100%;
     }
@@ -229,7 +229,7 @@ a {
         font-size: 1rem;
     }
 
-     .text-p span {
+    .text-p span {
         font-size: 1.5rem;
     }
 
@@ -276,7 +276,7 @@ a {
     .lgo-title {
         padding-bottom: 0;
     }
-    
+
 
     .web {
         display: flex;
@@ -342,7 +342,9 @@ a {
         margin-bottom: 20px;
     }
 
-    .list ul, li, a {
+    .list ul,
+    li,
+    a {
         padding: 0;
     }
 
@@ -365,9 +367,9 @@ a {
     .web a {
         width: 20%;
     }
-}
 
-.web img{
-    width: 100%;
-}
+    .web img {
+        width: 100%;
+    }
 
+}
