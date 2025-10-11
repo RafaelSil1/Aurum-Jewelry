@@ -2,4 +2,5 @@
 
 https://rafaelsil1.github.io/Aurum-Jewelry/
 
-![favYrc](https://github.com/user-attachments/assets/be6e6746-16d1-48df-90a5-f377088576ee)
+
+<img width="300" height="300" alt="Untitled" src="https://github.com/user-attachments/assets/a0fd2f24-001f-45e7-8c50-68da1d356b30" />
