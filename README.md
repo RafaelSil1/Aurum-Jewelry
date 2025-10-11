@@ -1,3 +1,5 @@
 # Atividade-Pratica-01
+
 https://rafaelsil1.github.io/Aurum-Jewelry/
-![favYrc](https://github.com/user-attachments/assets/b0fdb42b-3f9c-49e4-a6a9-cc480815956d)
+
+![favYrc](https://github.com/user-attachments/assets/be6e6746-16d1-48df-90a5-f377088576ee)
