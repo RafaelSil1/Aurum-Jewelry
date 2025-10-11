@@ -22,11 +22,13 @@ header h1 {
 }
 
 .nav {
-    width: 25%;
+    width: 30%;
 }
 
 .nav ul {
     display: flex;
+    padding: 0;
+    gap: 10px;
 }
 
 .nav a:hover {
@@ -148,7 +150,6 @@ footer {
 li,
 a {
     color: rgb(255, 255, 255);
-    width: 100%;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-decoration: none;
@@ -178,7 +179,6 @@ a {
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        margin-left: 10px;
         height: auto;
     }
 
@@ -191,6 +191,8 @@ a {
     }
 
     .nav {
+        display: flex;
+        justify-content: center;
         width: 100%;
         margin-top: 10px;
     }
@@ -203,16 +205,10 @@ a {
         color: #ffffff;
     }
 
-    .nav ul {
-        flex-direction: row;
-        align-items: center;
-        padding-left: 15px;
-        gap: 5px;
-    }
-
     .img-banner {
         width: 100%;
         padding: 110px 0px;
+        background-attachment: local;
     }
 
     .img img {
@@ -305,7 +301,7 @@ a {
 
     .nav ul {
         margin-left: 2px;
-        gap: 5px;
+        gap: 10px;
     }
 
     .nav a {
@@ -318,7 +314,9 @@ a {
 
     .img-banner {
         width: 100%;
+        background-attachment: none;
         padding: 110px 0px;
+
     }
 
     .cards {
